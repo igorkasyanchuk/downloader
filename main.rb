@@ -17,3 +17,5 @@ require_relative 'init.rb'
 #Follower.new.do_job
 
 Analizer.process
+
+#Meta.new.process

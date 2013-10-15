@@ -11,6 +11,7 @@ require_relative 'page.rb'
 require_relative 'raw_page.rb'
 require_relative 'follower.rb'
 require_relative 'analizer.rb'
+require_relative 'meta.rb'
 
 ActiveRecord::Base.establish_connection(:adapter => 'sqlite3', :database => 'db.db')
 
